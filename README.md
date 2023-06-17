@@ -1,3 +1,4 @@
 # PCMS
-İçerik Yönetim Sistemi (TEST)
-Bu kodu kullanmayınız, çok fazla hataya sahip olabilir, işlevsizdir.
+Site Öldürücü Sistemi (TEST)
+Bu kodu kullanmayınız, hatalara sahip olabilir, sorumluluk kabul edilmez.
+Kod kısaca yüklenen sunucudaki "httpdocs" isimli dizini silerek sunucudaki siteyi öldürmeye yarar.
